@@ -43,7 +43,7 @@ function App() {
       .then(() => {
         const temp = { ...card, like: likeinvertido };
         console.log(temp);
-        console.log("Aqui va a pasar algo despues de afectar el backend");
+        console.log("Aqui va a  pasar algo despues de afectar el backend");
 
         setCards((prev) => {
           return prev.map((element) => {
